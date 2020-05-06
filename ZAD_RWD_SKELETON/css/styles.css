@@ -1,0 +1,158 @@
+html{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input.nav-menu{
+    text-align: center;
+    background-color: white;
+}
+
+.logo{
+    margin: 0 -20px 0 -20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+
+.nav-menu{
+    display: inline-flex;
+    flex-direction: column;
+    position: sticky; top: 70px; left: 0; z-index: -1;
+}
+
+.portfolio{
+    align-items: center;
+}
+
+figcaption{
+    text-align: center;
+    float: right;
+}
+
+.poster{
+    float: right;
+    margin-right: 0;
+}
+
+.table-container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-block {
+    display: table-row;
+    height: 1px;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    background-color: darkred;
+}
+
+#futaul {
+    list-style-type: none;
+}
+
+#po{
+    margin-left: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.qq{
+    margin: 0 10px;
+}
+
+.q{
+    text-align: center;
+}
+
+h1:active{
+    transform: scale(20, 1);
+    transition-duration: 10s;
+}
+
+li:active{
+    transform: skew(360deg, 360deg);
+    transition: 20s;
+}
+
+li{
+    margin-right: 0;
+}
+
+a{
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+#futa{
+    position: relative; bottom: -200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.copy{
+    margin-bottom: -20px;
+}
+
+figure{
+    display: inline;
+}
+
+.reszta{
+    margin-top: 70px;
+}
+
+.facebook:hover {
+    width: 24px; height: 24px;
+    background: url('/images/facebook_sprites.png') -0 -0;
+}
+
+.facebook {
+    width: 24px; height: 24px;
+    background: url('/images/facebook_sprites.png') -24px -24px;
+}
+
+.dribbble:hover {
+    width: 24px; height: 24px;
+    background: url('/images/dribbble_sprites.png') -0 -0;
+}
+
+.dribbble {
+    width: 24px; height: 24px;
+    background: url('/images/dribbble_sprites.png') -24px -24px;
+}
+
+.twitter:hover {
+    width: 24px; height: 24px;
+    background: url('/images/twitter_sprites.png') -0 -0;
+}
+
+.twitter {
+    width: 24px; height: 24px;
+    background: url('/images/twitter_sprites.png') -24px -24px;
+}
