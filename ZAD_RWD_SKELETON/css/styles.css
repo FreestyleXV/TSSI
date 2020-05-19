@@ -127,32 +127,6 @@ figure{
     margin-top: 70px;
 }
 
-.facebook:hover {
-    width: 24px; height: 24px;
-    background: url('/images/facebook_sprites.png') -0 -0;
-}
-
-.facebook {
-    width: 24px; height: 24px;
-    background: url('/images/facebook_sprites.png') -24px -24px;
-}
-
-.dribbble:hover {
-    width: 24px; height: 24px;
-    background: url('/images/dribbble_sprites.png') -0 -0;
-}
-
-.dribbble {
-    width: 24px; height: 24px;
-    background: url('/images/dribbble_sprites.png') -24px -24px;
-}
-
-.twitter:hover {
-    width: 24px; height: 24px;
-    background: url('/images/twitter_sprites.png') -0 -0;
-}
-
-.twitter {
-    width: 24px; height: 24px;
-    background: url('/images/twitter_sprites.png') -24px -24px;
+.witam{
+    margin: 5px 5px 5px 5px;
 }
